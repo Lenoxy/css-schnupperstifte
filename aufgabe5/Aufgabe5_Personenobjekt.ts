@@ -2,9 +2,10 @@ class App {
     constructor(){
         //Mache Hier eine neue Person, die deinen Name trägt. Falls Ihr mehrere Personen seid, macht mehrere Objekte.
 
+        let lisa = new Person();
         
 
-        this.personenAusgeben();
+        this.personenAusgeben(lisa);
       }
 
     
