@@ -23,5 +23,7 @@ let -> Wird verwendet um eine Variabel ins leben zu rufen.
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 Aufgaben: 
 Erstelle nun anschliessend eine Variabel und speichere darin dein Alter.
-Gebe anschliessend via console.log(VariabelName); dein Inhalt auf der Konsole aus.
+Gebe anschliessend via console.log(variabelName); den Inhalt auf der Konsole aus.
 */
+
+
