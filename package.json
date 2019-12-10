@@ -2,9 +2,13 @@
   "name": "test",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "1": "tsc aufgabe1/Aufgabe1_Variablen.ts && node aufgabe1/Aufgabe1_Variablen.ts",
+    "2": "tsc aufgabe2/Aufgabe2_If_Else.ts && node aufgabe2/Aufgabe2_If_Else.ts",
+    "3": "tsc aufgabe3/Aufgabe3_Chatbot.ts && node aufgabe3/Aufgabe3_Chatbot.ts",
+    "4": "tsc aufgabe4/Aufgabe4_Schlaufen.ts && node aufgabe4/Aufgabe4_Schlaufen.ts",
+    "5": "tsc aufgabe5/Aufgabe5_Personenobjekt.ts && node aufgabe5/Aufgabe5_Personenobjekt.ts",
+    "test" : ""
   },
   "author": "",
   "license": "ISC"
