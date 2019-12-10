@@ -25,11 +25,11 @@ class App {
     personAusgeben(person: Person){
         console.log("Dein Name:", person.name);
         console.log("Deine Haarfarbe:", person.haare.farbe);
-        console.log("Deine Haarlaenge:", person.haare.laenge);
+        console.log("Deine Haarlaenge:", Haarlaenge[person.haare.laenge].toLowerCase());
         console.log("Deine Shirtfarbe:", person.tshirt.farbe);
-        console.log("Dein Shirttyp:", person.tshirt.typ);
+        console.log("Dein Shirttyp:", ShirtTyp[person.tshirt.typ].toLowerCase());
         console.log("Deine Schuhfarbe:", person.schuhe.farbe);
-        console.log("Deine Schuhmarke:", person.schuhe.marke);
+        console.log("Deine Schuhmarke:", SchuhMarke[person.schuhe.marke].toLowerCase());
 
 
 
