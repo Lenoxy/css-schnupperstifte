@@ -5,11 +5,14 @@
   "scripts": {
     "1": "tsc aufgabe1/Aufgabe1_Variablen.ts && node aufgabe1/Aufgabe1_Variablen.ts",
     "2": "tsc aufgabe2/Aufgabe2_If_Else.ts && node aufgabe2/Aufgabe2_If_Else.ts",
-    "3": "tsc aufgabe3/Aufgabe3_Chatbot.ts && node aufgabe3/Aufgabe3_Chatbot.ts",
+    "3": "tsc aufgabe3/Aufgabe3_FizzBuzz.ts && node aufgabe3/Aufgabe3_FizzBuzz.ts",
     "4": "tsc aufgabe4/Aufgabe4_Schlaufen.ts && node aufgabe4/Aufgabe4_Schlaufen.ts",
     "5": "tsc aufgabe5/Aufgabe5_Personenobjekt.ts && node aufgabe5/Aufgabe5_Personenobjekt.ts",
-    "test" : ""
+    "test": ""
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "telegram-bot-api": "^1.3.3"
+  }
 }
