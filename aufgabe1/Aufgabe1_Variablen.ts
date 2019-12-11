@@ -10,9 +10,10 @@ kannst du den Karton öffnen und den Inhalt herausnehmen.
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 Beispiel:
 let variabelName = 10;
+let variabelName = "Zeichenkette";
 
 let -> Wird verwendet um eine Variabel ins leben zu rufen.
-[variabelName] -> Folgt immer nach dem let und ist grunsätzlich frei wählbar. Es gibt jedoch ein Paar einschränkungen.
+[variabelName] -> Folgt immer nach dem let und ist grunsätzlich frei wählbar. Es gibt jedoch ein Paar Einschränkungen auf welche wir jetzt nicht näher draufeingehen.
 = -> Befindet sich zwischen dem VariabelName und dem Wert, welcher abgelegt wird.
 10 -> Der Wert, in diesem Fall eine Zahl, welche in der Variabel gespeichert wird.
 
@@ -22,7 +23,7 @@ let -> Wird verwendet um eine Variabel ins leben zu rufen.
 /*
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 Aufgaben: 
-Erstelle nun anschliessend eine Variabel und speichere darin dein Alter.
+Erstelle nun eine Variabel und speichere darin dein Alter.
 Gebe anschliessend via console.log(variabelName); den Inhalt auf der Konsole aus.
 */
 
