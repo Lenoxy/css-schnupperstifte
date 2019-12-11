@@ -12,7 +12,7 @@ for(let variabelName = 0; variabelName < 20; variabelname + 1) {
 
 for() -> for ist ein von Typescript definiertes Schlüsselwort und kennzeichnet eine For-Schlaufe
 let variaelName = 0; -> Erstes Segment, hier kannst du eine Variabel initialisieren.
-variabbelName < 20; -> Zweites Segment, hier definierst du die Bedingung, als wie lange die Schlaue andauern soll bis sie fertig ist.
+variabbelName < 20; -> Zweites Segment, hier definierst du die Bedingung, als wie lange die Schlaufe andauern soll bis sie fertig ist.
 ACHTUNG!!! Überprüfe hier immer zuerst das deine Bedingung nicht in der Unendlichkeit landet.
 variabelName + 1; -> Damit die Bedingung irgendeinmal zutrifft, musst du den Zustand deiner Variabel anpassen.
 {

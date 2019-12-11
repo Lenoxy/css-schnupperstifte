@@ -1,18 +1,15 @@
 {
   "name": "css-schnupperstifte",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "scripts": {
     "1": "tsc aufgabe1/Aufgabe1_Variablen.ts && node aufgabe1/Aufgabe1_Variablen.js",
     "2": "tsc aufgabe2/Aufgabe2_If_Else.ts && node aufgabe2/Aufgabe2_If_Else.js",
-    "3": "tsc aufgabe3/Aufgabe3_FizzBuzz.ts && node aufgabe3/Aufgabe3_FizzBuzz.js",
-    "4": "tsc aufgabe4/Aufgabe4_Schlaufen.ts && node aufgabe4/Aufgabe4_Schlaufen.js",
+    "3": "tsc aufgabe3/Aufgabe3_Schlaufen.ts && node aufgabe3/Aufgabe3_Schlaufen.js",
+    "4": "tsc aufgabe4/Aufgabe4_FizzBuzz.ts && node aufgabe4/Aufgabe4_FizzBuzz.js",
     "5": "tsc aufgabe5/Aufgabe5_Personenobjekt.ts && node aufgabe5/Aufgabe5_Personenobjekt.js",
     "test": ""
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "telegram-bot-api": "^1.3.3"
-  }
+  "author": "CSS Versicherung",
+  "license": "ISC"
 }

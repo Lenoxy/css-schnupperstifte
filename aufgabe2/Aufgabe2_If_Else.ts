@@ -9,3 +9,5 @@ Gib dann aus, ob das Passwort korrekt ist, oder ob ein falsches Passwort eingege
 Benutze dazu eine Kondition, also das If-Else Statement und zur ausgabe console.log();
 
 */
+
+console.log("Hallo");
