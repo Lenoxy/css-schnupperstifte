@@ -8,6 +8,7 @@ class App {
         this.personenAusgeben(lisa);
       }
 
+
     
     personenAusgeben(person1?: Person, person2?: Person, person3?: Person): void {
         if(person1){
