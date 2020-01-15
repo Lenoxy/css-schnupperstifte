@@ -7,7 +7,7 @@ Schlaufen werden dazu verwendet um gewisse Abläufe in einem Programm mehrmals a
 
 Beispiel einer For-Schlaufe:
 
-for(let variabelName = 0; variabelName < 20; variabelname + 1) {
+for(let variabelName = 0; variabelName < 20; variabelName++) {
     console.log(variabelName);
 }
 
@@ -23,5 +23,3 @@ variabelName + 1; -> Im dritten Segment, damit die Bedingung irgendeinmal zutrif
 Aufgabe:
 Erstelle nun deine Eigene Forschlaufe, welche in der Konsole von 1 - 10000 zählt.
 */
-
-// Schreibe Code hier

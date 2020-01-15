@@ -1,5 +1,4 @@
 /*
-
 FizzBuzz ist eine bekannte Aufgabe im Programmierumfeld.
 
 Ziel dieser Aufgabe ist es jede Zahl von 1 bis 20 auszugeben.
@@ -11,6 +10,4 @@ Tipps:
 Verwende eine For-Schlaufe.
 Verwende das Operationszeichen % welches den Rest einer Division zurückgibt.
 Verwende console.log(); um die Zahl sowie die Zeichenkette auszugeben.
-
 */
-
