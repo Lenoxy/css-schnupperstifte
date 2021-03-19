@@ -11,10 +11,10 @@ Beispiel:
 let variabelName = 10;
 let variabelName = "Zeichenkette";
 
-let -> Wird verwendet um eine Variabel ins Leben zu rufen.
-[variabelName] -> Folgt immer nach dem let und ist grundsätzlich frei wählbar. Es gibt jedoch ein Paar Einschränkungen auf welche wir jetzt nicht näher draufeingehen.
-= -> Befindet sich zwischen dem VariabelName und dem Wert, welcher abgelegt wird.
-10 -> Der Wert, in diesem Fall eine Zahl, welche in der Variabel gespeichert wird.
+[let] -> Wird verwendet um eine Variabel ins Leben zu rufen.
+[variabelName] -> Folgt immer nach dem let und ist grundsätzlich frei wählbar. Es gibt jedoch einige Einschränkungen auf welche wir jetzt nicht näher draufeingehen.
+[=] -> Befindet sich zwischen dem VariabelName und dem Wert, welcher abgelegt wird.
+[10] -> Der Wert, in diesem Fall eine Zahl, welche in der Variabel gespeichert wird.
 
 
 

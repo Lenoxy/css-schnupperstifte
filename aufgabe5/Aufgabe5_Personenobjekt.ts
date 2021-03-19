@@ -1,28 +1,20 @@
 class App {
-    constructor(){
+    constructor() {
         //Mache Hier eine neue Person, die deinen Name trägt. Falls Ihr mehrere Personen seid, macht mehrere Objekte.
 
         let lisa = new Person();        
 
+        // Füge der Name deines Objektes hier an der Stelle von Lisa ein.
+        // Falls mehrere Personen ausgegeben werden sollen, können diese mit einem komma getrennt werden.
         this.personenAusgeben(lisa);
-      }
-
-
-    
-    personenAusgeben(person1?: Person, person2?: Person, person3?: Person): void {
-        if(person1){
-            this.personAusgeben(person1);
-        }
-        if(person2){
-            this.personAusgeben(person2);
-        }
-        if(person3){
-            this.personAusgeben(person3);
-        }
-
     }
 
-    personAusgeben(person: Person){
+
+    personenAusgeben(...person: Person[]): void {
+        person.forEach(person => this.personAusgeben(person))
+    }
+
+    personAusgeben(person: Person) {
         person.name ? console.log("Name:", person.name) : null;
         person.haare.farbe ? console.log("Haarfarbe:", person.haare.farbe) : null;
         person.haare.laenge ? console.log("Haarlaenge:", Haarlaenge[person.haare.laenge].toLowerCase()) : null;
@@ -31,29 +23,24 @@ class App {
         person.schuhe.farbe ? console.log("Schuhfarbe:", person.schuhe.farbe) : null;
         person.schuhe.marke ? console.log("Schuhmarke:", SchuhMarke[person.schuhe.marke].toLowerCase()) : null;
 
-
-
     }
 }
 
-class Person{
+class Person {
     name: string;
     haare = new Haare();
     shirt = new Shirt();
     schuhe = new Schuhe();
-
 }
 
 class Haare {
     farbe: string;
     laenge: Haarlaenge;
-
 }
 
 class Shirt {
     farbe: string;
     typ: ShirtTyp
-
 }
 
 class Schuhe {
