@@ -41,3 +41,4 @@ Gib dann in der Konsole aus, ob das Passwort korrekt ist, oder ob ein falsches P
 
 Benutze dazu eine Kondition, also das If-Else Statement und zur ausgabe das Statement console.log();
 */
+
