@@ -134,4 +134,6 @@ temp/
 !.vscode/extensions.json
 *.code-workspace
 
+.DS_Store
+
 # End of https://www.toptal.com/developers/gitignore/api/node,intellij,vscode,macos,windows
